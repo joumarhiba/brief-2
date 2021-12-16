@@ -1,0 +1,259 @@
+.titre {
+    position: absolute; top: 5%; left:50%;
+    font-size: 170%;
+    font-family: Arial;
+    color: #F7941D;
+}
+.titre2 {
+    position: absolute; top: 10%; left: 37%;
+    font-size: 170%;
+    font-family: Arial;
+    color: #F7941D;   
+}
+.pub1 {
+    position: absolute; top: 25.5%; left: 18.7%;
+}
+.pub2 {
+    position: absolute; top: 25.5%; left: 45.7%;
+}
+.pub3 {
+    position: absolute; top: 25.5%; left: 72.7%;
+}
+.pub4 {
+    position: absolute;top: 67.9%; left: 67.3%;
+}
+.sous-titre {
+    position: absolute; top: 71%; left: 29%;
+    font-size: 87.5%;
+    font-family: Arial;
+    color: #F7941D;   
+}
+.texte1 {
+    color: black;
+    position: absolute; top: 78.8%; left: 24.5%;
+    font-size: 97.5%;
+    font-family: Arial;
+    display:table;
+    width: 37%;
+}
+.texte2 {
+    position: absolute; top: 99.8%; left: 24.5%;
+    font-size: 97.5%;
+    color: black;
+    font-family: Arial;
+    display:table;
+    width: 37%;
+}
+.texte3 {
+    position: absolute; top: 115%; left:22.5%;
+    font-size: 97.5%;
+    color: black;
+    font-family: Arial;
+    display: table;
+    width: 50%;
+}
+
+
+.nav {
+    position: absolute; top: 230px;left: 30px;
+}
+.img-responsive-site-logo{
+    position: absolute;
+    top: 1.8%; left:18%;
+    /* font-size: 68.75%; */
+    width: 40%;
+}
+.n1 {
+    position: absolute; top: 19.3%;left: 60px;
+    font-size: 56.25%;font-weight: normal;
+    font-family: Roboto;
+}
+.n2 {
+    font-size: 56.25%;font-weight: normal;
+    position: absolute; top: 20.75%; left: 70px;
+    font-family: Roboto;
+}
+
+/*////////////backgrounds /////////*/
+.bg1 {
+    position: absolute;
+    top: 0.3px;left: 280px;
+    width: 77.1%;height: 89%;
+}
+.bg2 {
+    position: absolute;
+    top: 0px;left: 790px;
+    width: 30%; height: 89%;
+}
+
+.l1 {
+    position: absolute;
+    top: 100px; left: 350px;
+    color: white;
+    font-family: Arial;
+    font-size: 27px;
+}
+.l2 {
+    position: absolute;
+    top: 190px; left: 400px;
+    color: white;
+    font-family: Arial;
+    font-size: 27px;
+}
+.l3 {
+    position: absolute;
+    top: 280px; left: 450px;
+    color: white;
+    font-family: Arial;
+    font-size: 27px;
+}
+/*////////corps/////////////*/
+.TITRE {
+    color: #F7941D;
+    font-size: 168%;
+    font-family: Arial;
+    position: absolute;
+    top: 530px;left: 290px;
+    font-weight: normal;
+}
+.hero-full-wrapper {
+    position: absolute;
+    top: 610px;left: 290px;
+    width: 76%; height: 90%;
+}
+.lastimg {
+    position: absolute;
+    top: 1760px;left: 755px;
+    width: 460px;height: 60%; 
+}
+.lastp {
+    position: absolute;
+    top: 1810px;left: 320px;
+    font-family: Arial;
+    font-size: 106.25%;
+    color: black;
+    font-weight: normal;    
+    display:table;
+    width: 30%;
+}
+.bt{
+    position: absolute; top: 1960px;left: 423px;
+    padding: 9px 9px;
+    background:#F7941D;
+    color:white;
+    font-weight: bold;
+    width:9%;
+    font-size: 87.5%;
+    border-radius: 10px;
+}
+/*///////////ABOUT ///////////*/
+.btn-primary{
+    color: #fff;
+    background-color: #F7941D;
+    border-color: #F7941D;
+    border-radius: 10px;
+}
+
+@media (max-width:900px) {
+    /*////////////HOME///////////////*/
+    .nav{
+        top: 20%;
+    }
+    .nav-footer{
+        top: 60%;
+    }
+    .bg1{
+        width: 99%; height: 63%;
+        top: 10%; left: 1%;
+    }
+ 
+    .bg2{
+        top: 13%;left: 53%;
+        width: 39%;height: 55%;
+    }
+    .l1{
+        top: 30%; left: 8%;
+         font-size: 90%;
+        font-family: Arial;font-weight: normal;
+    }
+    .l2{
+        top: 40%; left: 18%;
+         font-size: 90%;
+        font-family: Arial;font-weight: normal;
+    }
+    .l3{
+        top: 50%;left: 28%;
+        font-size: 90%;
+    }
+ /*/galerie/*/
+    .hero-full-wrapper {
+        top: 87%;
+        left: 12%;
+    }
+    .TITRE{
+        left: 17%;top: 74%;
+        font-size: 100%;
+    }
+    .lastp{
+        top: 683%;left: 12%;
+        
+        width: 70%;
+        font-family: Arial;
+    }
+    .lastimg{
+        width:90%;
+        height: 60%;
+        top: 796%;left: 5%;
+
+    }
+    .bt{
+        left: 30%;
+        top: 760%;
+        width: 20%;
+        height: 8%;font-size: 75%;
+        padding: 2% 2%;
+    }
+    /*////// PUBLICITE /////*/
+    .titre{
+        top: 8%; left:47%;font-size: 100%;
+    }
+    .titre2{
+        top: 11.7%; left:26%;font-size: 100%;
+    }
+    .pub1{
+        top: 22%; left: 6%;width: 90%;height:60%;
+    }
+    .pub2{
+        top: 87%; left: 6%;width: 90%;height:60%;
+    }
+    .pub3{
+        top: 152%; left: 6%;width: 90%;height:60%;
+    }
+    .pub4{
+        top: 249%; left: 6%;width: 90%;height:60%;
+    }
+    .sous-titre {
+        position: absolute; top: 215%; left: 9%;
+        font-size: 100%;
+        width: 80%;
+    }
+    .texte1 {
+        top: 226%; left: 8%;
+        font-size: 75.5%;
+        font-family: Arial;
+        display:table;
+        width: 90%;
+    }
+    .texte2 {
+        top: 240%; left: 8%;
+        font-size: 75.5%;
+        display:table;
+        width: 90%;
+    }
+    .texte3 {
+        top: 315%; left:4%;
+        font-size: 75.5%;
+        display: table;
+        width: 90%;
+    }
+}
